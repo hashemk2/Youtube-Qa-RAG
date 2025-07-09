@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube QA RAG System</title>
+    <link rel="stylesheet" href="/static/style.css?v=2">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>YouTube Transcript QA System</h1>
+            <p>Ask questions directly from any YouTube video</p>
+        </header>
+        <div id="loading-spinner" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+        <main>
+            <form id="qa_form">
+                <input type="text" id="video_url" placeholder="Enter YouTube Video URL" required />
+                <input type="text" id="question" placeholder="Enter your question" required />
+                <button type="submit">Ask</button>
+            </form>
+            <div id="answer-container">
+                <h2>Answer</h2>
+                <p id="answerr">Your answer will appear here.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Developed by Hashem Abu Khalifah</p>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
