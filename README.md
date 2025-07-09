@@ -14,6 +14,7 @@ This project is a Question Answering (QA) system that leverages Retrieval-Augmen
 ```
 requirements.txt
 youtube_rag.db
+README.md
 app/
   backEnd/
     database.py        # Database models and session
